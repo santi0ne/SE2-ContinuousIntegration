@@ -7,7 +7,7 @@ def main():
     plan_name = input("Seleccione plan (Basic, Premium, Family): ")
     plan = get_plan_details(plan_name)
 
-    # === Requisito 10: Error Handling (plan inválido) ===
+    # === Requisito 10: Error Handling (plan inválido) ===S
     if not plan:
         print("Plan no válido.")
         return -1  # === Requisito 9: Return -1 si la entrada no es válida ===
