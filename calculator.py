@@ -1,7 +1,17 @@
-# calculator.py
-
+"""
+Clase calculator
+"""
 def calculate_total_cost(plan, features, group_members=1):
-    # === Requirement 3: Base Membership Cost ===
+    """metodo para calcular total de costos del plan
+
+    Args:
+        plan (String): plan escogido actual del cliente
+        features (String): que ofrece el plan actual
+        group_members (int, optional): Cuantos miembros hay en ese plan. Defaults to 1.
+
+    Returns:
+        _type_: _description_
+    """    # === Requirement 3: Base Membership Cost ===
     base_cost = plan["base_cost"]
 
     # === Requirement 3: Additional Features Cost ===

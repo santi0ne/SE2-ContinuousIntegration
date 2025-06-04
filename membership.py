@@ -1,6 +1,6 @@
-# Noelia Saltos
-# Membership Management System
-# This module defines membership plans and their features for a gym management system.
+"""Membership Management System
+This module defines membership plans and their features for a gym management system.
+"""
 
 # === Requirement 1: Membership Selection ===
 # Esta estructura muestra los distintos planes, beneficios y costos.
